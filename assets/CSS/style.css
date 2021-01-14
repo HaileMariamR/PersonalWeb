@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+
+
+#bg-video{
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    right: 0;
+    bottom: 0;
+
+    
+}
+.navbar{
+    background-color: none;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+}
+.nav{
+    margin-left: 16rem;
+}
+
