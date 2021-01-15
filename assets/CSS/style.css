@@ -26,3 +26,41 @@
     margin-left: 16rem;
 }
 
+
+#slideShowGallary{
+    position: absolute;
+    margin-top: 10rem;
+
+}
+
+
+.carousel-item img{
+    height: 20rem;
+    width: 40rem;
+}
+#contact{
+    margin-top: 6rem;
+}
+textarea{
+    height: 8rem;
+    width: 5rem;
+}
+.card{
+    width: 15rem;
+}
+
+.blog-card{
+    margin-top: 8rem;
+}
+.form{
+    width: 35rem;
+    height: 25rem;
+    margin-left: 10rem;
+    border: 1px solid red;
+    padding: 1rem;
+}
+.form-control{
+    width: 30rem;
+    height: 1rem;
+    
+}
