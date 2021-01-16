@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Lobster+Two&display=swap');
 
 #bg-video{
     position: fixed;
@@ -27,56 +29,62 @@
     
 }
 .nav{
-    margin-left: 16rem;
+    margin-left: 25%;
 }
 
 
 #slideShowGallary{
     position: absolute;
-    margin-top: 10rem;
+    margin-top: 20%;
 
 }
 
 
 .carousel-item img{
-    height: 25rem;
-    width: 60rem;
+    height: 30%;
+    width: 30%;
 }
 /* #contact{
     margin-top: 6rem;
     position: absolute;
 } */
 textarea{
-    height: 8rem;
-    width: 5rem;
+    height: 5%;
+    width: 5%;
 }
 .card{
-    width: 15rem;
+    width:100%;
 }
 
 .blog-card{
-    margin-top: 4rem;
+    margin-top: 10%;
 }
 .form{
-    width: 35rem;
-    height: 25rem;
-    margin-left: 10rem;
-    border: 1px solid red;
-    padding: 1rem;
+     /* width: 100%;
+    height: 50%; */
+    
+     /* border: 1px solid red;  */
+
+    /* height: 40%;
+    width: 100%; */
 }
 .form-control{
-    width: 30rem;
-    height: 1rem;
+    width: 100%;
+    height: 30px;
+    margin: -15px;
     
 }
 .slideshow{
-    margin-top: 7rem;
-    margin-left: 15rem;
+    margin-top: 10%;
+    /* margin-left: 15rem; */
+    
+    
+    
 }
 
 .carousel-control-prev-icon{
-    width: 2rem;
-    height: 2rem;
+    width: 20%;
+    height: 20%;
 
     
   
@@ -91,10 +99,13 @@ textarea{
     border-radius: 50% ;
 }
 .carousel-control-next-icon{
-    width: 2rem;
-    height: 2rem;
+    width: 20%;
+    height: 20%;
   
 
+}
+.carousel{
+    min-width:100%;
 }
 
 .carousel-control-prev{
@@ -107,8 +118,8 @@ textarea{
 }
 
 #img-g img{
-    width: 20rem;
-    height: 20rem;
+    width: 100%;
+    height: 100%;
 
 }
 
@@ -122,20 +133,22 @@ textarea{
 
 }
 .contactpage{
-    margin-top: 10rem;
+    margin-top:10%;
 }
 .footer-social-media li{
     display: inline-block;
-    margin-left: 3rem;
+    margin: left 10%;;
 }
 footer{
     background-color: cadetblue;
+    font-family: 'Caveat', cursive;
+font-family: 'Lobster Two', cursive;
 
 }
 
 .copyright{
     border-top: 0.5px solid burlywood;
-    padding-top: 1rem;
+    padding-top: 3%;
     right: 0;
 }
 .fcontent li{
@@ -145,4 +158,21 @@ footer{
 .fcontent li a{
     color: whitesmoke;
     text-decoration: none;
-}">>> Ho
+}
+.card img{
+    height:100%;
+    width: 100%;
+}
+.card{
+    padding: 3%;
+}
+
+.img-g{
+    padding: 5% ;
+}
+
+#cinfo{
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Caveat', cursive;
+    font-size: 1.5rem;
+}
