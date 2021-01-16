@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 #bg-video{
     position: fixed;
@@ -21,6 +21,10 @@
 
 .navbar-brand{
     font-size: 2rem;
+    
+}
+.navbar-brand:hover{
+    
 }
 .nav{
     margin-left: 16rem;
@@ -35,12 +39,13 @@
 
 
 .carousel-item img{
-    height: 20rem;
-    width: 40rem;
+    height: 25rem;
+    width: 60rem;
 }
-#contact{
+/* #contact{
     margin-top: 6rem;
-}
+    position: absolute;
+} */
 textarea{
     height: 8rem;
     width: 5rem;
@@ -50,7 +55,7 @@ textarea{
 }
 
 .blog-card{
-    margin-top: 8rem;
+    margin-top: 4rem;
 }
 .form{
     width: 35rem;
@@ -64,3 +69,80 @@ textarea{
     height: 1rem;
     
 }
+.slideshow{
+    margin-top: 7rem;
+    margin-left: 15rem;
+}
+
+.carousel-control-prev-icon{
+    width: 2rem;
+    height: 2rem;
+
+    
+  
+
+}
+.carousel-control-prev-icon:hover{
+    background-color: darkcyan;
+    border-radius: 50% ;
+}
+.carousel-control-next-icon:hover{
+    background-color: darkcyan;
+    border-radius: 50% ;
+}
+.carousel-control-next-icon{
+    width: 2rem;
+    height: 2rem;
+  
+
+}
+
+.carousel-control-prev{
+    color: darkcyan;
+}
+
+.carousel-caption{
+    font-family: 'Lobster', cursive;
+    color: cornflowerblue;
+}
+
+#img-g img{
+    width: 20rem;
+    height: 20rem;
+
+}
+
+.navb{
+    background: rgb(65, 65, 94);
+    /* background-image: url('.assets/Images/navbackground.jpg') no-repeat;
+    background-size: cover; */
+}
+.nav-link:hover{
+    color: brown;
+
+}
+.contactpage{
+    margin-top: 10rem;
+}
+.footer-social-media li{
+    display: inline-block;
+    margin-left: 3rem;
+}
+footer{
+    background-color: cadetblue;
+
+}
+
+.copyright{
+    border-top: 0.5px solid burlywood;
+    padding-top: 1rem;
+    right: 0;
+}
+.fcontent li{
+    color: whitesmoke;
+
+}
+.fcontent li a{
+    color: whitesmoke;
+    text-decoration: none;
+}">>> Ho
