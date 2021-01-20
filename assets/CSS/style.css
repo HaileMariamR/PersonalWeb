@@ -143,6 +143,8 @@ footer{
     background-color: cadetblue;
     font-family: 'Caveat', cursive;
 font-family: 'Lobster Two', cursive;
+min-width: 100%;
+min-height: 100%;
 
 }
 
